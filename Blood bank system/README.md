@@ -25,14 +25,34 @@ This is a simple C# WinForm desktop application for blood donation system mangem
 - CircularProgressBar (NuGet) included into Packages folder.
 - RealTaiizor (NuGet) included into Packages folder.
 
-## Screenshots
-![Startup Screen](Screenshots/9.PNG)
-![Login Screen](Screenshots/10.PNG)
-![Main Screen](Screenshots/1.PNG)
-![Main Screen](Screenshots/2.PNG)
-![Main Screen](Screenshots/3.PNG)
-![Donors Screen](Screenshots/4.PNG)
-![Users Screen](Screenshots/5.PNG)
-![Settings Screen](Screenshots/6.PNG)
-![New Donor Screen](Screenshots/7.PNG)
-![New User Screen](Screenshots/8.PNG)
+## Screenshots  
+
+### Startup Screen  
+![Startup Screen](Screenshots/9.PNG)  
+
+### Login Screen  
+![Login Screen](Screenshots/10.PNG)  
+
+### Dashboard / Main Screen  
+![Main Screen](Screenshots/1.PNG)  
+
+### Dashboard / Statistics  
+![Main Screen](Screenshots/2.PNG)  
+
+### Dashboard
+![Main Screen](Screenshots/3.PNG)  
+
+### Donor List  
+![Donors Screen](Screenshots/4.PNG)  
+
+### User Management  
+![Users Screen](Screenshots/5.PNG)  
+
+### Settings Panel  
+![Settings Screen](Screenshots/6.PNG)  
+
+### Add New Donor  
+![New Donor Screen](Screenshots/7.PNG)  
+
+### Add New User  
+![New User Screen](Screenshots/8.PNG)  
