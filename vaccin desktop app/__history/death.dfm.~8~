@@ -1,0 +1,103 @@
+object Form10: TForm10
+  Left = 0
+  Top = 0
+  AutoSize = True
+  Caption = 'Form10'
+  ClientHeight = 243
+  ClientWidth = 352
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 352
+    Height = 65
+    Align = alTop
+    BiDiMode = bdRightToLeft
+    ParentBiDiMode = False
+    TabOrder = 0
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 65
+    Width = 352
+    Height = 112
+    Align = alTop
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 256
+      Top = 64
+      Width = 58
+      Height = 13
+      BiDiMode = bdRightToLeft
+      Caption = #1578#1575#1585#1610#1582' '#1575#1604#1608#1601#1575#1577' : '
+      ParentBiDiMode = False
+    end
+    object Label2: TLabel
+      Left = 244
+      Top = 33
+      Width = 78
+      Height = 13
+      BiDiMode = bdRightToLeft
+      Caption = #1593#1604#1609' '#1602#1610#1583' '#1575#1604#1581#1610#1575#1577' : '
+      ParentBiDiMode = False
+    end
+    object DateTimePicker1: TDateTimePicker
+      Left = 40
+      Top = 64
+      Width = 210
+      Height = 20
+      BiDiMode = bdRightToLeft
+      Date = 42903.589743865740000000
+      Time = 42903.589743865740000000
+      ParentBiDiMode = False
+      TabOrder = 0
+    end
+    object ComboBox1: TComboBox
+      Left = 48
+      Top = 30
+      Width = 190
+      Height = 21
+      TabOrder = 1
+      OnChange = ComboBox1Change
+      Items.Strings = (
+        #1606#1593#1605
+        #1604#1575)
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 177
+    Width = 352
+    Height = 66
+    Align = alTop
+    BiDiMode = bdRightToLeft
+    ParentBiDiMode = False
+    TabOrder = 2
+    object Button1: TButton
+      Left = 10
+      Top = 16
+      Width = 75
+      Height = 33
+      Caption = #1573#1604#1594#1575#1569
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 91
+      Top = 16
+      Width = 75
+      Height = 33
+      Caption = #1581#1601#1592
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+  end
+end

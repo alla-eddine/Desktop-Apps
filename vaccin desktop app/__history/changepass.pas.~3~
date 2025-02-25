@@ -1,0 +1,66 @@
+unit changepass;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,inifiles;
+
+type
+  TForm22 = class(TForm)
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    GroupBox2: TGroupBox;
+    Edit1: TEdit;
+    Label2: TLabel;
+    Button1: TButton;
+    GroupBox3: TGroupBox;
+    Edit2: TEdit;
+    Label3: TLabel;
+    Button2: TButton;
+    Edit3: TEdit;
+    procedure FormCreate(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form22: TForm22;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm22.Button1Click(Sender: TObject);
+begin
+if (edit1.Text = edit3.text) then
+ begin
+  groupbox3.Show;
+  groupbox1.Hide;
+ end
+else
+  showmessage(' Œÿ√ ›Ì ﬂ·„… «·„—Ê— ');
+end;
+
+procedure TForm22.Button2Click(Sender: TObject);
+begin
+with Tinifile.Create(ChangeFileExt(Application.ExeName,'.ini')) do
+  begin
+  writestring('password','pass',edit2.text);
+  end;
+  showmessage('  „  €ÌÌ— ﬂ·„… «·„—Ê— «⁄œ  ‘€Ì· «·»—‰«„Ã ·ÕŸ «·»Ì«‰«  ');
+  application.Terminate;
+end;
+
+procedure TForm22.FormCreate(Sender: TObject);
+begin
+groupbox3.Hide;
+with Tinifile.Create(ChangeFileExt(Application.ExeName,'.ini')) do
+      edit3.Text:=readstring('password','pass',edit3.text);
+end;
+
+end.

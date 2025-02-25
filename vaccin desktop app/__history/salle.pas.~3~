@@ -1,0 +1,38 @@
+unit salle;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids;
+
+type
+  TForm14 = class(TForm)
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    DBGrid1: TDBGrid;
+    GroupBox2: TGroupBox;
+    Button1: TButton;
+    Button2: TButton;
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form14: TForm14;
+
+implementation
+  uses mdata;
+{$R *.dfm}
+
+procedure TForm14.Button2Click(Sender: TObject);
+begin
+mdata.data.salles.Delete;
+showmessage(' „ «·Õ–› »‰Ã«Õ');
+end;
+
+end.

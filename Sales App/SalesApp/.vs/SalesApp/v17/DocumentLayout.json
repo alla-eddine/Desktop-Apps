@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|d:\\programming\\desktop apps\\sales app\\salesapp\\models\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|solutionrelative:models\\databaseclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\frm_userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|solutionrelative:frm_userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\frm_userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{9C3B7FA0-BF04-48BD-97EE-9907E637ECE4}|SalesApp.csproj|solutionrelative:frm_userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseClass.cs",
+              "DocumentMoniker": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\Models\\DatabaseClass.cs",
+              "RelativeDocumentMoniker": "Models\\DatabaseClass.cs",
+              "ToolTip": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\Models\\DatabaseClass.cs",
+              "RelativeToolTip": "Models\\DatabaseClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T21:33:47.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AQIAAOYAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:38:37.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Sales App\\SalesApp\\Form1.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Sales App\\SalesApp\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:37:04.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_UserLogin.cs",
+              "DocumentMoniker": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\frm_UserLogin.cs",
+              "RelativeDocumentMoniker": "frm_UserLogin.cs",
+              "ToolTip": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\frm_UserLogin.cs",
+              "RelativeToolTip": "frm_UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T20:35:46.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frm_UserLogin.cs [Design]",
+              "DocumentMoniker": "D:\\Programming\\Desktop Apps\\Sales App\\SalesApp\\frm_UserLogin.cs",
+              "RelativeDocumentMoniker": "frm_UserLogin.cs",
+              "ToolTip": "D:\\Sales App\\SalesApp\\frm_UserLogin.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Sales App\\SalesApp\\frm_UserLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T19:30:41.587Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

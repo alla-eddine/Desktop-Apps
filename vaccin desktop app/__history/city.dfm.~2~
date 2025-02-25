@@ -1,0 +1,88 @@
+object Form13: TForm13
+  Left = 0
+  Top = 0
+  AutoSize = True
+  Caption = 'Form13'
+  ClientHeight = 258
+  ClientWidth = 296
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 296
+    Height = 57
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 56
+      Top = 24
+      Width = 188
+      Height = 13
+      Caption = #1602#1575#1574#1605#1577' '#1571#1587#1605#1575#1569' '#1575#1604#1571#1581#1610#1575#1569' '#1575#1604#1605#1587#1580#1604#1577' '#1601#1610' '#1575#1604#1576#1585#1606#1575#1605#1580
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 57
+    Width = 296
+    Height = 144
+    Align = alTop
+    BiDiMode = bdRightToLeft
+    DataSource = data.streetdata
+    ParentBiDiMode = False
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'street_id'
+        Visible = False
+      end
+      item
+        Expanded = False
+        FieldName = 'street_name'
+        Title.Caption = #1571#1587#1605#1575#1569' '#1575#1604#1571#1581#1610#1575#1569
+        Visible = True
+      end>
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 201
+    Width = 296
+    Height = 57
+    Align = alTop
+    TabOrder = 2
+    ExplicitLeft = 8
+    ExplicitTop = 209
+    object Button1: TButton
+      Left = 80
+      Top = 14
+      Width = 57
+      Height = 29
+      Caption = #1573#1590#1575#1601#1577
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 17
+      Top = 14
+      Width = 57
+      Height = 29
+      Caption = #1581#1584#1601
+      TabOrder = 1
+      OnClick = Button2Click
+    end
+  end
+end

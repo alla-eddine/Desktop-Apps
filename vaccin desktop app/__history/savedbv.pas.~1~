@@ -1,0 +1,30 @@
+unit savedbv;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons;
+
+type
+  TForm21 = class(TForm)
+    Label1: TLabel;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    Edit1: TEdit;
+    SaveDialog1: TSaveDialog;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form21: TForm21;
+
+implementation
+
+{$R *.dfm}
+
+end.

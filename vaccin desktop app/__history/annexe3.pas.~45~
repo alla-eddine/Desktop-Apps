@@ -1,0 +1,228 @@
+unit annexe3;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, frxClass, frxDBSet,
+  Data.DB, Vcl.Grids,DateUtils, Vcl.DBGrids, Vcl.Buttons;
+
+type
+  TForm9 = class(TForm)
+    GroupBox1: TGroupBox;
+    ComboBox1: TComboBox;
+    ComboBox2: TComboBox;
+    ComboBox3: TComboBox;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    annexe3: TfrxReport;
+    frxDBDataset1: TfrxDBDataset;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    procedure FormShow(Sender: TObject);
+    procedure SpeedButton1Click(Sender: TObject);
+    procedure SpeedButton2Click(Sender: TObject);
+
+
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form9: TForm9;
+
+implementation
+  uses mdata,main;
+{$R *.dfm}
+
+
+
+
+
+
+procedure TForm9.FormShow(Sender: TObject);
+begin
+mdata.data.child.Refresh;
+mdata.data.years.Close;
+mdata.data.years.open;
+mdata.data.years.first;
+combobox2.Clear;
+while not mdata.data.years.eof do
+begin
+  combobox2.Items.Append(mdata.data.years.FieldByName('years').value);
+  mdata.data.years.Next;
+end;
+
+mdata.data.salles.Close;
+mdata.data.salles.open;
+mdata.data.salles.first;
+combobox1.Clear;
+while not mdata.data.salles.eof do
+begin
+  combobox1.Items.Append(mdata.data.sallessalle_name.value);
+  mdata.data.salles.Next;
+end;
+
+end;
+
+
+//--------------------- annexe3 data -------------------------------------------
+procedure TForm9.SpeedButton1Click(Sender: TObject);
+var
+  Memo,Memo1,Memo2: TfrxMemoView;
+  i:integer;
+  Component,Component1,Component2: TfrxComponent;
+begin
+with mdata.data.annexe3 do
+begin
+  active:=false;
+  sql.clear;
+  sql.add('select * from child');
+  sql.add('WHERE child_year = ' +QuotedStr(ComboBox2.Text));
+  sql.add('and child_salle = ' +QuotedStr(ComboBox1.Text));
+  sql.add('AND vaccin_m =' +inttostr(combobox3.ItemIndex+1));
+  sql.add('AND vaccin_y =' +inttostr(YearOf(now)));
+  sql.add('order by child_cn');
+  execsql;
+  active:=true;
+end;
+//------------------------------------------------------------------------------
+
+//--------------------- vaccin table -------------------------------------------
+i:=1;
+Component := annexe3.FindObject('salle');
+Memo := Component as TfrxMemoView;
+Memo.Text := combobox1.Text;
+with mdata.data.vaccin do
+begin
+  active:=false;
+  sql.Clear;
+  sql.Add('select * from vaccin');
+  sql.Add('where vaccin_month Is Not Null ');
+  active:=true;
+end;
+mdata.data.vaccin.First;
+while not mdata.data.vaccin.Eof do
+ begin
+  Component2 := annexe3.FindObject('v'+inttostr(i));
+  Memo2 := Component2 as TfrxMemoView;
+  Memo2.Text := mdata.data.vaccinvaccin_name.Text;
+  Memo2.Font.Size:=7;
+  Memo2.HAlign:=haCenter;
+  mdata.data.vaccin.Next;
+  i:=i+1;
+ end;
+
+i:=1;
+with mdata.data.vaccin do
+begin
+  active:=false;
+  sql.Clear;
+  sql.Add('select * from vaccin');
+  sql.Add('where vaccin_month Is Null ');
+  active:=true;
+end;
+mdata.data.vaccin.First;
+while not mdata.data.vaccin.Eof do
+ begin
+  Component := annexe3.FindObject('m'+inttostr(i));
+  Component1 := annexe3.FindObject('n'+inttostr(i));
+  Memo := Component as TfrxMemoView;
+  Memo1 := Component1 as TfrxMemoView;
+  Memo.Text := mdata.data.vaccinvaccin_name.Text;
+  Memo1.Text := mdata.data.vaccinvaccin_lot.Text;
+  Memo.HAlign:=haCenter;
+  Memo1.HAlign:=haCenter;
+  Memo.Font.Size:=8;
+  Memo1.Font.Size:=8;
+  mdata.data.vaccin.Next;
+  i:=i+1;
+ end;
+ annexe3.ShowReport();
+end;
+
+
+
+//------------------------------------------------------------------------------
+
+
+//------------------------------anexe3 all--------------------------------------
+
+procedure TForm9.SpeedButton2Click(Sender: TObject);
+var
+  Memo,Memo1,Memo2: TfrxMemoView;
+  i:integer;
+  Component,Component1,Component2: TfrxComponent;
+begin
+with mdata.data.annexe3 do
+begin
+  active:=false;
+  sql.clear;
+  sql.add('select * from child');
+  sql.add('WHERE child_year = ' +QuotedStr(ComboBox2.Text));
+  sql.add('AND vaccin_m =' +inttostr(combobox3.ItemIndex+1));
+  sql.add('AND vaccin_y =' +inttostr(YearOf(now)));
+  sql.add('order by child_cn');
+  execsql;
+  active:=true;
+end;
+i:=1;
+with mdata.data.vaccin do
+begin
+  active:=false;
+  sql.Clear;
+  sql.Add('select * from vaccin');
+  sql.Add('where vaccin_month Is Not Null ');
+  active:=true;
+end;
+mdata.data.vaccin.First;
+while not mdata.data.vaccin.Eof do
+ begin
+  Component2 := annexe3.FindObject('v'+inttostr(i));
+  Memo2 := Component2 as TfrxMemoView;
+  Memo2.Text := mdata.data.vaccinvaccin_name.Text;
+  Memo2.Font.Size:=7;
+  Memo2.HAlign:=haCenter;
+  mdata.data.vaccin.Next;
+  i:=i+1;
+ end;
+
+i:=1;
+with mdata.data.vaccin do
+begin
+  active:=false;
+  sql.Clear;
+  sql.Add('select * from vaccin');
+  sql.Add('where vaccin_month Is Null ');
+  active:=true;
+end;
+mdata.data.vaccin.First;
+while not mdata.data.vaccin.Eof do
+ begin
+  Component := annexe3.FindObject('m'+inttostr(i));
+  Component1 := annexe3.FindObject('n'+inttostr(i));
+  Memo := Component as TfrxMemoView;
+  Memo1 := Component1 as TfrxMemoView;
+  Memo.Text := mdata.data.vaccinvaccin_name.Text;
+  Memo1.Text := mdata.data.vaccinvaccin_lot.Text;
+  Memo.HAlign:=haCenter;
+  Memo1.HAlign:=haCenter;
+  Memo.Font.Size:=8;
+  Memo1.Font.Size:=8;
+  mdata.data.vaccin.Next;
+  i:=i+1;
+ end;
+ annexe3.ShowReport();
+end;
+
+//------------------------------------------------------------------------------
+
+
+
+
+
+
+end.

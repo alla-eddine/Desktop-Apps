@@ -1,0 +1,96 @@
+unit editvaccin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, DateUtils,Vcl.ExtCtrls, Vcl.ComCtrls;
+
+type
+  TForm8 = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label2: TLabel;
+    Label3: TLabel;
+    ComboBox2: TComboBox;
+    Panel3: TPanel;
+    ComboBox1: TComboBox;
+    Label1: TLabel;
+    DateTimePicker1: TDateTimePicker;
+    Panel4: TPanel;
+    Button1: TButton;
+    Button2: TButton;
+    procedure FormShow(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure ComboBox1Change(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form8: TForm8;
+
+implementation
+  uses main,mdata;
+{$R *.dfm}
+
+procedure TForm8.Button1Click(Sender: TObject);
+var s:integer;
+begin
+if combobox1.Text = '‰⁄„' then
+  begin
+    data.injection.Edit;
+    data.injectionvaccin_state.Text:=combobox1.Text;
+    data.injectioninjection_date.Text:=datetostr(datetimepicker1.Date);
+    data.injectionvaccin_place.Text:=combobox2.Text;
+    s:=data.injectionvaccin_no.value;
+    data.injection.Post;
+    data.child.Edit;
+    data.child.FieldByName('child_salle').Value:=combobox2.Text;
+    data.child.FieldByName('vaccin_m').Value:=MonthOf(datetimepicker1.Date);
+    data.child.Fields[s+20].Value:=datetostr(datetimepicker1.Date);
+    data.child.FieldByName('vaccin_y').Value:=YearOf(datetimepicker1.date);
+    data.child.Post;
+    showmessage(' „ «· ⁄œÌ· »‰Ã«Õ');
+    close;
+  end
+else
+  begin
+    data.injection.Edit;
+    data.injectionvaccin_state.Text:=combobox1.Text;
+    data.injectioninjection_date.Text:='/';
+    data.injectionvaccin_place.Text:='/';
+    s:=data.injectionvaccin_no.value;
+    data.injection.Post;
+    showmessage(' „ «· ⁄œÌ· »‰Ã«Õ');
+    close;
+  end;
+end;
+
+
+procedure TForm8.ComboBox1Change(Sender: TObject);
+begin
+if combobox1.Text = '·«' then panel2.Hide
+else panel2.Show;
+end;
+
+procedure TForm8.FormShow(Sender: TObject);
+begin
+panel1.Caption:= ' ··„Ê·Êœ ' +data.childfullname.Text+ '  ' +data.injectionvaccin_name.Text+ '  ⁄œÌ· «·Õﬁ‰… '   ;
+combobox2.Clear;
+mdata.data.salles.Close;
+mdata.data.salles.open;
+mdata.data.salles.first;
+while not mdata.data.salles.eof do
+begin
+  combobox2.Items.Append(mdata.data.sallessalle_name.value);
+  mdata.data.salles.Next;
+end;
+combobox2.Text:=mdata.data.injectionvaccin_place.Text;
+if combobox1.Text = '·«' then panel2.Hide
+else panel2.Show;
+end;
+
+end.

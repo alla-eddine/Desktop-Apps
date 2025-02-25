@@ -1,0 +1,57 @@
+program vaccin;
+
+uses
+  Vcl.Forms,
+  login in 'login.pas' {Form1},
+  main in 'main.pas' {Form2},
+  mdata in 'mdata.pas' {data: TDataModule},
+  addchild in 'addchild.pas' {Form3},
+  Vcl.Themes,
+  Vcl.Styles,
+  editchild in 'editchild.pas' {Form4},
+  addinj in 'addinj.pas' {Form5},
+  addvaccin in 'addvaccin.pas' {Form6},
+  newvaccin in 'newvaccin.pas' {Form7},
+  editvaccin in 'editvaccin.pas' {Form8},
+  annexe3 in 'annexe3.pas' {Form9},
+  death in 'death.pas' {Form10},
+  annexe2 in 'annexe2.pas' {Form11},
+  addcity in 'addcity.pas' {Form12},
+  city in 'city.pas' {Form13},
+  salle in 'salle.pas' {Form14},
+  addsalle in 'addsalle.pas' {Form15},
+  stat in 'stat.pas' {Form16},
+  stat2 in 'stat2.pas' {Form17},
+  setup in 'setup.pas' {Form18},
+  annexe_v in 'annexe_v.pas' {Form19},
+  savedb in 'savedb.pas' {Form20};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Turquoise Gray');
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(Tdata, data);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.CreateForm(TForm8, Form8);
+  Application.CreateForm(TForm9, Form9);
+  Application.CreateForm(TForm10, Form10);
+  Application.CreateForm(TForm11, Form11);
+  Application.CreateForm(TForm12, Form12);
+  Application.CreateForm(TForm13, Form13);
+  Application.CreateForm(TForm14, Form14);
+  Application.CreateForm(TForm15, Form15);
+  Application.CreateForm(TForm16, Form16);
+  Application.CreateForm(TForm17, Form17);
+  Application.CreateForm(TForm18, Form18);
+  Application.CreateForm(TForm19, Form19);
+  Application.CreateForm(TForm20, Form20);
+  Application.Run;
+end.

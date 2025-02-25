@@ -1,0 +1,107 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  AutoSize = True
+  Caption = 'Form6'
+  ClientHeight = 321
+  ClientWidth = 541
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 541
+    Height = 75
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 160
+      Top = 24
+      Width = 151
+      Height = 23
+      Caption = #1578#1593#1583#1610#1604' '#1571#1587#1605#1575#1569' '#1575#1604#1581#1602#1606
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 0
+    Top = 257
+    Width = 541
+    Height = 64
+    Align = alTop
+    TabOrder = 1
+    object Button1: TButton
+      Left = 96
+      Top = 13
+      Width = 87
+      Height = 38
+      Caption = #1578#1593#1583#1610#1604
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+    object Button3: TButton
+      Left = 3
+      Top = 13
+      Width = 87
+      Height = 38
+      Caption = #1573#1604#1594#1575#1569
+      TabOrder = 1
+      OnClick = Button3Click
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 75
+    Width = 541
+    Height = 182
+    Align = alTop
+    BiDiMode = bdRightToLeft
+    DataSource = data.vaccindata
+    ParentBiDiMode = False
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    OnCellClick = DBGrid1CellClick
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'vaccin_id'
+        Visible = False
+      end
+      item
+        Expanded = False
+        FieldName = 'vaccin_name'
+        Title.Caption = #1573#1587#1605' '#1575#1604#1581#1602#1606#1577
+        Width = 201
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'vaccin_month'
+        Title.Caption = #1608#1602#1578' '#1575#1604#1581#1602#1606#1577' '#1576#1575#1604#1588#1607#1585
+        Width = 132
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'vaccin_lot'
+        Title.Caption = #1585#1602#1605' lot '#1604#1604#1581#1602#1606#1577
+        Visible = True
+      end>
+  end
+end

@@ -1,0 +1,47 @@
+unit annexe2;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, frxClass, frxDBSet;
+
+type
+  TForm11 = class(TForm)
+    GroupBox1: TGroupBox;
+    Label1: TLabel;
+    ComboBox1: TComboBox;
+    Button1: TButton;
+    annexe2: TfrxReport;
+    frxDBDataset4: TfrxDBDataset;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form11: TForm11;
+
+implementation
+  uses mdata,main;
+{$R *.dfm}
+
+procedure TForm11.Button1Click(Sender: TObject);
+var v:string;
+begin
+with mdata.data.annexe2 do
+  begin
+    active:=false;
+    sql.clear;
+    sql.add('select * from child');
+    sql.add('WHERE Month(child_birth) =' +inttostr(MonthOf(now)));
+    sql.add('order by child_cn');
+    execsql;
+    active:=true;
+  end;
+annexe2.ShowReport();
+end;
+
+end.

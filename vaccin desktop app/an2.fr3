@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42903.6319858333" ReportOptions.Description.Text="" ReportOptions.LastChange="42940.5305879167" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset4" DataSetName="frxDBDataset4"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="248.10235" Left="0" Top="18.89765" Width="1046.92981">
+      <TfrxMemoView Name="Memo3" Left="36" Top="43.08658" Width="473" Height="25" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="DIRACTION DE LA SANTE ET LA POPULATION DE LA WILAYA DE DJELFA"/>
+      <TfrxMemoView Name="Memo4" Left="37" Top="62.08658" Width="332" Height="15" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="SECTURE SANITAIRE DE HASSI  BAHBAH"/>
+      <TfrxMemoView Name="Memo9" Left="214" Top="212.10235" Width="93" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="prenom de pere"/>
+      <TfrxMemoView Name="Memo10" Left="307" Top="212.10235" Width="105" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="date de naissance"/>
+      <TfrxMemoView Name="Memo12" Left="412" Top="212.10235" Width="188" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="ADRESSE COMPLETE"/>
+      <TfrxMemoView Name="v4" Left="600" Top="212.10235" Width="143" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="LIEU DE NAISSANCE"/>
+      <TfrxMemoView Name="v5" Left="743" Top="212.10235" Width="69" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DATE&#13;&#10;BCG"/>
+      <TfrxMemoView Name="Memo7" Left="40" Top="212.10235" Width="57" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="n etat&#13;&#10;civil"/>
+      <TfrxMemoView Name="Memo8" Left="97" Top="212.10235" Width="117" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="nom et prenom"/>
+      <TfrxMemoView Name="Memo1" Left="36" Top="83.10235" Width="228" Height="18" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="COMMUNE DE :"/>
+      <TfrxMemoView Name="Memo6" Left="36" Top="105.10235" Width="228" Height="18" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="DESTINATAIRE :"/>
+      <TfrxMemoView Name="Memo5" Left="36" Top="129.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="UNITE DE :"/>
+      <TfrxMemoView Name="Memo11" Left="37" Top="149.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="C.C.C DE :"/>
+      <TfrxMemoView Name="Memo14" Left="37" Top="167.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="SEMEP DE :"/>
+      <TfrxMemoView Name="Memo15" Left="570" Top="129.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="SEMAINE DE :"/>
+      <TfrxMemoView Name="Memo16" Left="569" Top="149.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="MOIS DE :"/>
+      <TfrxMemoView Name="Memo17" Left="570" Top="167.10235" Width="228" Height="18" Font.Charset="0" Font.Color="0" Font.Height="-15" Font.Name="Arial Narrow" Font.Style="3" ParentFont="False" VAlign="vaCenter" Text="ANNEE :"/>
+      <TfrxMemoView Name="Memo13" Left="812" Top="212.10235" Width="69" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DATE&#13;&#10;VPO"/>
+      <TfrxMemoView Name="Memo18" Left="881" Top="212.10235" Width="69" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DATE&#13;&#10;HBV"/>
+      <TfrxMemoView Name="Memo19" Left="950" Top="212.10235" Width="69" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="DATE&#13;&#10;DECES"/>
+      <TfrxMemoView Name="Memo30" Left="568" Top="52.10235" Width="79" Height="20" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" Frame.Typ="8" ParentFont="False" VAlign="vaCenter" Text="ANNEXE 2"/>
+    </TfrxPageHeader>
+    <TfrxMemoView Name="Memo2" Left="324" Top="17.98423" Width="425" Height="23" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="ETAT DES NAISSANCES ET DES DECES"/>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="36" Left="0" Top="328.81911" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="frxDBDataset4" DataSetName="frxDBDataset4" RowCount="0">
+      <TfrxMemoView Name="Memo20" Left="214" Top="0" Width="93" Height="36" DataField="child_f" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_f&#34;]"/>
+      <TfrxMemoView Name="Memo21" Left="307" Top="0" Width="105" Height="36" DataField="child_birth" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_birth&#34;]"/>
+      <TfrxMemoView Name="Memo22" Left="412" Top="0" Width="188" Height="36" DataField="child_adress" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_adress&#34;]"/>
+      <TfrxMemoView Name="Memo23" Left="600" Top="0" Width="143" Height="36" DataField="child_city" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_city&#34;]"/>
+      <TfrxMemoView Name="Memo24" Left="743" Top="0" Width="69" Height="36" DataField="v1" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;v1&#34;]"/>
+      <TfrxMemoView Name="Memo25" Left="40" Top="0" Width="57" Height="36" DataField="child_cn" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_cn&#34;]"/>
+      <TfrxMemoView Name="Memo26" Left="97" Top="0" Width="117" Height="36" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_ln&#34;] [frxDBDataset4.&#34;child_fn&#34;]">
+        <Formats>
+          <item/>
+          <item/>
+        </Formats>
+      </TfrxMemoView>
+      <TfrxMemoView Name="Memo27" Left="812" Top="0" Width="69" Height="36" DataField="v1" DataSet="frxDBDataset4" DataSetName="frxDBDataset4" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;v1&#34;]"/>
+      <TfrxMemoView Name="Memo28" Left="881" Top="0" Width="69" Height="36" DataField="v2" DataSet="frxDBDataset4" DataSetName="frxDBDataset4" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;v2&#34;]"/>
+      <TfrxMemoView Name="Memo29" Left="950" Top="0" Width="69" Height="36" DataField="child_death" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[frxDBDataset4.&#34;child_death&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="21.52783" Left="0" Top="427.08689" Width="1046.92981">
+      <TfrxMemoView Name="Memo31" Left="34.5201" Top="0.630179999999996" Width="92.5906" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="ETABLURE :"/>
+      <TfrxMemoView Name="Memo33" Left="415" Top="2" Width="97.5906" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" ParentFont="False" VAlign="vaCenter" Text="FAITE LE :"/>
+      <TfrxMemoView Name="Memo35" Left="895" Top="2" Width="40.5906" Height="18.89765" Font.Charset="1" Font.Color="0" Font.Height="-15" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="LE :"/>
+      <TfrxMemoView Name="Date" Left="940" Top="0.913110000000017" Width="79.37013" Height="18.89765" Text="[Date]"/>
+    </TfrxPageFooter>
+  </TfrxReportPage>
+</TfrxReport>

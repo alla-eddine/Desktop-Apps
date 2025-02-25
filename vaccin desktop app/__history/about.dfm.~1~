@@ -1,0 +1,38 @@
+object Form24: TForm24
+  Left = 0
+  Top = 0
+  Caption = 'Form24'
+  ClientHeight = 132
+  ClientWidth = 259
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 0
+    Width = 259
+    Height = 129
+    Align = alTop
+    BiDiMode = bdRightToLeft
+    Color = clBackground
+    ParentBackground = False
+    ParentBiDiMode = False
+    ParentColor = False
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 75
+      Top = 32
+      Width = 100
+      Height = 13
+      Caption = #1576#1585#1605#1580#1577' '#1608' '#1578#1589#1605#1610#1605' D-A-Y'
+      Color = clAqua
+      ParentColor = False
+    end
+  end
+end

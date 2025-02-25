@@ -1,0 +1,27 @@
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\Bllod bank system.exe.config
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\Bllod bank system.exe
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\Bllod bank system.pdb
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\ReaLTaiizor.dll
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\ReaLTaiizor.xml
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod bank system.csproj.AssemblyReference.cache
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.Form1.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.Properties.Resources.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod bank system.csproj.GenerateResource.cache
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod bank system.csproj.CoreCompileInputs.cache
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod ba.46EBB87B.Up2Date
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod bank system.exe
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod bank system.pdb
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.stats.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.apropos.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.candidats.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.donneuractives.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.newdonorform.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.editdonorform.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.StartupForm.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\CircularProgressBar.dll
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\WinFormAnimation.dll
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\bin\Debug\CircularProgressBar.xml
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.LoginForm.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.Utilisateurs.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.newuserform.resources
+C:\Users\allaeddine\source\repos\Bllod bank system\Bllod bank system\obj\Debug\Bllod_bank_system.edituserform.resources

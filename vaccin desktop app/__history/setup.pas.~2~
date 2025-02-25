@@ -1,0 +1,35 @@
+unit setup;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtDlgs, Vcl.StdCtrls;
+
+type
+  TForm18 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    Dialog1: TSaveTextFileDialog;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form18: TForm18;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm18.Button1Click(Sender: TObject);
+begin
+ if Dialog1.Execute then
+begin
+ edit1.Text:=Dialog1.FileName;
+end;
+end;
+end.

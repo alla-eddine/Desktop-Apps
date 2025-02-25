@@ -1,0 +1,63 @@
+unit setup;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtDlgs, Vcl.StdCtrls,inifiles;
+
+type
+  TForm18 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    Dialog1: TSaveTextFileDialog;
+    Button2: TButton;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form18: TForm18;
+
+implementation
+    uses mdata,main;
+{$R *.dfm}
+
+procedure TForm18.Button1Click(Sender: TObject);
+begin
+ if Dialog1.Execute then
+begin
+ edit1.Text:=Dialog1.FileName;
+end;
+end;
+procedure TForm18.Button2Click(Sender: TObject);
+var save:Tinifile;
+begin
+try
+ mdata.data.ADOConnection1.Close;
+ mdata.data.ADOConnection1.ConnectionString:='Provider=Microsoft.Jet.OLEDB.4.0;User ID=Admin;Data Source ='+edit1.text+';Persist Security Info=False;';
+ mdata.data.ADOConnection1.Open;
+ if createdir('C:/data')  then
+   begin
+   save:=Tinifile.Create('C:\data\save.ini');
+   save.WriteString('save','edit',edit1.text);
+   end
+ else
+  begin
+   save:=Tinifile.Create('C:\data\save.ini');
+   save.WriteString('save','edit',edit1.text);
+  end;
+ showmessage(' „ «·≈ À«· »‰Ã«Õ');
+ mdata.data.child.active:=true;
+ Close;
+except
+  showmessage('ÕœÀ Œÿ« √À‰«¡ «·≈ ’«·');
+  Close;
+end;
+end;
+end.

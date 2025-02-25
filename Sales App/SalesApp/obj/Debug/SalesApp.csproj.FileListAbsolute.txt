@@ -1,0 +1,196 @@
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\SalesApp.exe.config
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\SalesApp.exe
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\SalesApp.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.csproj.AssemblyReference.cache
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.Form1.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormClients.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormExpenses.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormProduct.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormPurchases.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormReturns.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormSales.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormSuppliers.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.FormUsers.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.cache
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.csproj.CoreCompileInputs.cache
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.csproj.Up2Date
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.exe
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\obj\Debug\SalesApp.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\allaeddine\Desktop\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+E:\Sales App\SalesApp\bin\Debug\SalesApp.exe.config
+E:\Sales App\SalesApp\bin\Debug\SalesApp.exe
+E:\Sales App\SalesApp\bin\Debug\SalesApp.pdb
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportSource.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.Shared.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.Windows.Forms.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+E:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+E:\Sales App\SalesApp\bin\Debug\stdole.dll
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\Sales App\SalesApp\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+E:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.AssemblyReference.cache
+E:\Sales App\SalesApp\obj\Debug\SalesApp.Form1.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormSetting.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_BarcodePrinting.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ProductGroup.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_BuyQty.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormClients.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormExpenses.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormProduct.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormPurchases.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormReturns.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormSales.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormSuppliers.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.FormUsers.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientMoney.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientReport.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_PayPuy.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_PaySale.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.Frm_Printing.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.Frm_PurchasesReport.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SaleQty.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesRb7h.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesReport.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_Store.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierMoney.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierReport.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_TopProduct.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_Unit.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.frm_UserLogin.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+E:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.cache
+E:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.CoreCompileInputs.cache
+E:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.Up2Date
+E:\Sales App\SalesApp\obj\Debug\SalesApp.exe
+E:\Sales App\SalesApp\obj\Debug\SalesApp.pdb
+D:\Sales App\SalesApp\bin\Debug\SalesApp.exe.config
+D:\Sales App\SalesApp\bin\Debug\SalesApp.exe
+D:\Sales App\SalesApp\bin\Debug\SalesApp.pdb
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Sales App\SalesApp\bin\Debug\stdole.dll
+D:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.AssemblyReference.cache
+D:\Sales App\SalesApp\obj\Debug\SalesApp.Form1.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormSetting.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_BarcodePrinting.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ProductGroup.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_BuyQty.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormClients.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormExpenses.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormProduct.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormPurchases.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormReturns.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormSales.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormSuppliers.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.FormUsers.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientMoney.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientReport.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_PayPuy.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_PaySale.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.Frm_Printing.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.Frm_PurchasesReport.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SaleQty.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesRb7h.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesReport.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_Store.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierMoney.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierReport.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_TopProduct.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_Unit.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.frm_UserLogin.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+D:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.cache
+D:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.CoreCompileInputs.cache
+D:\Sales App\SalesApp\obj\Debug\SalesApp.csproj.Up2Date
+D:\Sales App\SalesApp\obj\Debug\SalesApp.exe
+D:\Sales App\SalesApp\obj\Debug\SalesApp.pdb
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\SalesApp.exe.config
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\SalesApp.exe
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\SalesApp.pdb
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportSource.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.Shared.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.Windows.Forms.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\bin\Debug\stdole.dll
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.csproj.AssemblyReference.cache
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.Form1.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormSetting.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_BarcodePrinting.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_ProductGroup.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_BuyQty.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormClients.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormExpenses.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormProduct.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormPurchases.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormReturns.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormSales.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormSuppliers.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.FormUsers.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientMoney.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_ClientReport.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_PayPuy.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_PaySale.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.Frm_Printing.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.Frm_PurchasesReport.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_SaleQty.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesRb7h.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_SalesReport.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_Store.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierMoney.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_SupplierReport.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_TopProduct.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_Unit.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.frm_UserLogin.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.Properties.Resources.resources
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.csproj.GenerateResource.cache
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.csproj.CoreCompileInputs.cache
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.csproj.Up2Date
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.exe
+D:\Programming\Desktop Apps\Sales App\SalesApp\obj\Debug\SalesApp.pdb

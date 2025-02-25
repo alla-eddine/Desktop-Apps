@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="42901.5675425" ReportOptions.Description.Text="" ReportOptions.LastChange="42946.8319584259" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBDataset2" DataSetName="frxDBDataset2"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxMemoView Name="Memo1" Left="191" Top="11" Width="344" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-24" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="الجمهورية الجزائرية الديموقراطية الشعبية"/>
+    <TfrxMemoView Name="Memo2" Left="419" Top="42" Width="263" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="ولايــــــة الجلفــــــــة"/>
+    <TfrxMemoView Name="Memo3" Left="418" Top="72" Width="263" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="القـــطاع الصحـــي بحاسي بحبـــح"/>
+    <TfrxMemoView Name="Memo4" Left="583" Top="127" Width="98" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="مركز تلقيح : "/>
+    <TfrxMemoView Name="Memo6" Left="532" Top="158" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الرقم التسلسلي : "/>
+    <TfrxMemoView Name="Memo7" Left="179" Top="172" Width="269" Height="56" Font.Charset="1" Font.Color="0" Font.Height="-48" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="إستــــدعــــاء"/>
+    <TfrxMemoView Name="Memo8" Left="528" Top="253" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الرجاء من السيد : "/>
+    <TfrxMemoView Name="Memo9" Left="528" Top="291" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الساكن بــ : "/>
+    <TfrxMemoView Name="Memo10" Left="36" Top="329" Width="643" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="أن يتقدم يوم الأحد , الإثنين , الثلاثاء أو الأربعاء على الساعة : التاســــــعة صباحا"/>
+    <TfrxMemoView Name="Memo11" Left="364" Top="367" Width="316" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="مرفــــــــوقــا بـ : ب.ت.و + الدفتر الصحي و "/>
+    <TfrxMemoView Name="Memo12" Left="26" Top="405" Width="653" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الى مركزحمــاية  الأم والطفــل لافادته بالتلقيح اللازم وذلك لحمايته من امراض خطيرة مثل :"/>
+    <TfrxMemoView Name="Memo15" Left="26" Top="443" Width="653" Height="29" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="السل , الخناق , الكزاز , السعال االديكي , الشلل و الحصبة وهذا باحترامكم لمواعيــد التلقيــح  . "/>
+    <TfrxMemoView Name="Memo13" Left="27" Top="481" Width="653" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="للمواعيد المدونة في الدفتر الصحي ."/>
+    <TfrxMemoView Name="Memo14" Left="236" Top="519" Width="409" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="- لا تترددوا في طلب أي معلومات من عمال الصحة"/>
+    <TfrxMemoView Name="Memo16" Left="-8" Top="556" Width="653" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="- ملاحظة : ستستلم بطاقة التلقيح و تشترط هذه الأخيرة عند التسجيل المدرسي ."/>
+    <TfrxMemoView Name="Memo17" Left="36" Top="642" Width="84" Height="34" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="1" Frame.Typ="8" HAlign="haCenter" ParentFont="False" RTLReading="True" Text="المكلف :"/>
+    <TfrxMemoView Name="Memo19" Left="181" Top="290" Width="339.37013" Height="26.89765" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text=" [frxDBDataset2.&#34;child_city&#34;]"/>
+    <TfrxMemoView Name="Memo20" Left="49" Top="367" Width="301.37013" Height="26.89765" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text=" [frxDBDataset2.&#34;child_ln&#34;] [frxDBDataset2.&#34;child_fn&#34;]"/>
+    <TfrxMemoView Name="Memo21" Left="181" Top="252" Width="339.37013" Height="26.89765" DataSet="frxDBDataset2" DataSetName="frxDBDataset2" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text=" [frxDBDataset2.&#34;child_ln&#34;] [frxDBDataset2.&#34;child_f&#34;]">
+      <Formats>
+        <item/>
+        <item/>
+      </Formats>
+    </TfrxMemoView>
+    <TfrxMemoView Name="Memo18" Left="400" Top="101" Width="285" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" Text="مصلحة مكافحة الأوبئة والطب الوقائي "/>
+    <TfrxMemoView Name="Memo22" Left="-80" Top="594" Width="495" Height="30" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="حررت بـ : حاسي بحبح في يوم : "/>
+    <TfrxMemoView Name="Date" Left="27" Top="596" Width="146.37013" Height="25.89765" Font.Charset="1" Font.Color="0" Font.Height="-19" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[Date]"/>
+    <TfrxMemoView Name="Memo5" Left="1" Top="724" Width="728" Height="25" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="............................................................................................................................................................................................................................................"/>
+    <TfrxMemoView Name="Memo23" Left="528" Top="758" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الرقم التسلسلي : "/>
+    <TfrxMemoView Name="Memo24" Left="529" Top="794" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="رقم الحالة المدنية : "/>
+    <TfrxMemoView Name="Memo25" Left="72" Top="830" Width="329" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="[frxDBDataset2.&#34;child_ln&#34;]  [frxDBDataset2.&#34;child_f&#34;]">
+      <Formats>
+        <item/>
+        <item/>
+      </Formats>
+    </TfrxMemoView>
+    <TfrxMemoView Name="Memo26" Left="408" Top="830" Width="272" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="شهد هذا المقطع على إستدعاء السيد  : ">
+      <Formats>
+        <item/>
+        <item/>
+      </Formats>
+    </TfrxMemoView>
+    <TfrxMemoView Name="Memo28" Left="529" Top="868" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="الموجه يوم : "/>
+    <TfrxMemoView Name="Memo29" Left="369" Top="868" Width="151" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="[Date]"/>
+    <TfrxMemoView Name="Memo30" Left="28" Top="907" Width="651" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="لحضور المستدعى يوم : الأحد , الإثنين , الثلاثاء أو الأربعاء على الساعة  التاســــــعة صباحا"/>
+    <TfrxMemoView Name="Memo31" Left="400" Top="946" Width="280" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="يلحق هذا الملحق يسجل الاستدعاءات ."/>
+    <TfrxMemoView Name="Memo32" Left="36" Top="959" Width="84" Height="34" Font.Charset="1" Font.Color="0" Font.Height="-27" Font.Name="Arial" Font.Style="1" Frame.Typ="8" HAlign="haCenter" ParentFont="False" RTLReading="True" Text="المكلف :"/>
+    <TfrxMemoView Name="Memo27" Left="253" Top="794" Width="272" Height="27" Font.Charset="1" Font.Color="0" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haRight" ParentFont="False" RTLReading="True" Text="[frxDBDataset2.&#34;child_cn&#34;] /[frxDBDataset2.&#34;child_year&#34;]">
+      <Formats>
+        <item/>
+        <item/>
+      </Formats>
+    </TfrxMemoView>
+  </TfrxReportPage>
+</TfrxReport>
