@@ -25,11 +25,26 @@ This is a simple Delphi desktop application for Children vaccinations system man
 - MS ACCES.
 
 
-## Screenshots
-![Login Screen](Screenshots/1.PNG)
-![Main Screen](Screenshots/2.PNG)
-![New Child Screen](Screenshots/3.PNG)
-![New Vaccin Screen](Screenshots/4.PNG)
-![New db Screen](Screenshots/5.PNG)
-![Save db Screen](Screenshots/6.PNG)
-![Injection List Screen](Screenshots/7.PNG)
+## Screenshots  
+
+### Login Screen  
+![Login Screen](Screenshots/1.PNG)  
+
+### Main Screen  
+![Main Screen](Screenshots/2.PNG)  
+
+### New Child Screen  
+![New Child Screen](Screenshots/3.PNG)  
+
+### New Vaccine Screen  
+![New Vaccin Screen](Screenshots/4.PNG)  
+
+### New Database Screen  
+![New db Screen](Screenshots/5.PNG)  
+
+### Save Database Screen  
+![Save db Screen](Screenshots/6.PNG)  
+
+### Injection List Screen  
+![Injection List Screen](Screenshots/7.PNG)  
+

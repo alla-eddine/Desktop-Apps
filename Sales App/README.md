@@ -26,14 +26,34 @@ This is a simple C# WinForm desktop application for sales managment system mange
 - Krypton (NuGet Packages).
 - SAP Crystal reports.
 
-## Screenshots
-![Login Screen](Screenshots/1.PNG)
-![Main Screen](Screenshots/2.PNG)
-![Sales Screen](Screenshots/3.PNG)
-![Purchases Screen](Screenshots/4.PNG)
-![Products Screen](Screenshots/5.PNG)
-![Expenses Screen](Screenshots/6.PNG)
-![Clients Screen](Screenshots/7.PNG)
-![Suppliers Screen](Screenshots/8.PNG)
-![Uers Screen](Screenshots/9.PNG)
-![Settings Screen](Screenshots/10.PNG)
+## Screenshots  
+
+### Login Screen  
+![Login Screen](Screenshots/1.PNG)  
+
+### Main Screen  
+![Main Screen](Screenshots/2.PNG)  
+
+### Sales Screen  
+![Sales Screen](Screenshots/3.PNG)  
+
+### Purchases Screen  
+![Purchases Screen](Screenshots/4.PNG)  
+
+### Products Screen  
+![Products Screen](Screenshots/5.PNG)  
+
+### Expenses Screen  
+![Expenses Screen](Screenshots/6.PNG)  
+
+### Clients Screen  
+![Clients Screen](Screenshots/7.PNG)  
+
+### Suppliers Screen  
+![Suppliers Screen](Screenshots/8.PNG)  
+
+### Users Screen  
+![Users Screen](Screenshots/9.PNG)  
+
+### Settings Screen  
+![Settings Screen](Screenshots/10.PNG)  
