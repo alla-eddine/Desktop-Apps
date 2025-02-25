@@ -26,13 +26,13 @@ This is a simple C# WinForm desktop application for blood donation system mangem
 - RealTaiizor (NuGet) included into Packages folder.
 
 ## Screenshots
-![Startup Screen](Screenshots/9.png)
-![Login Screen](Screenshots/10.png)
-![Main Screen](Screenshots/1.png)
-![Main Screen](Screenshots/2.png)
-![Main Screen](Screenshots/3.png)
-![Donors Screen](Screenshots/4.png)
-![Users Screen](Screenshots/5.png)
-![Settings Screen](Screenshots/6.png)
-![New Donor Screen](Screenshots/7.png)
-![New User Screen](Screenshots/8.png)
+![Startup Screen](Screenshots/9.PNG)
+![Login Screen](Screenshots/10.PNG)
+![Main Screen](Screenshots/1.PNG)
+![Main Screen](Screenshots/2.PNG)
+![Main Screen](Screenshots/3.PNG)
+![Donors Screen](Screenshots/4.PNG)
+![Users Screen](Screenshots/5.PNG)
+![Settings Screen](Screenshots/6.PNG)
+![New Donor Screen](Screenshots/7.PNG)
+![New User Screen](Screenshots/8.PNG)

@@ -27,13 +27,13 @@ This is a simple C# WinForm desktop application for sales managment system mange
 - SAP Crystal reports.
 
 ## Screenshots
-![Login Screen](Screenshots/1.png)
-![Main Screen](Screenshots/2.png)
-![Sales Screen](Screenshots/3.png)
-![Purchases Screen](Screenshots/4.png)
-![Products Screen](Screenshots/5.png)
-![Expenses Screen](Screenshots/6.png)
-![Clients Screen](Screenshots/7.png)
-![Suppliers Screen](Screenshots/8.png)
-![Uers Screen](Screenshots/9.png)
-![Settings Screen](Screenshots/10.png)
+![Login Screen](Screenshots/1.PNG)
+![Main Screen](Screenshots/2.PNG)
+![Sales Screen](Screenshots/3.PNG)
+![Purchases Screen](Screenshots/4.PNG)
+![Products Screen](Screenshots/5.PNG)
+![Expenses Screen](Screenshots/6.PNG)
+![Clients Screen](Screenshots/7.PNG)
+![Suppliers Screen](Screenshots/8.PNG)
+![Uers Screen](Screenshots/9.PNG)
+![Settings Screen](Screenshots/10.PNG)

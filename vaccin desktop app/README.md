@@ -26,10 +26,10 @@ This is a simple Delphi desktop application for Children vaccinations system man
 
 
 ## Screenshots
-![Login Screen](Screenshots/1.png)
-![Main Screen](Screenshots/2.png)
-![New Child Screen](Screenshots/3.png)
-![New Vaccin Screen](Screenshots/4.png)
-![New db Screen](Screenshots/5.png)
-![Save db Screen](Screenshots/6.png)
-![Injection List Screen](Screenshots/7.png)
+![Login Screen](Screenshots/1.PNG)
+![Main Screen](Screenshots/2.PNG)
+![New Child Screen](Screenshots/3.PNG)
+![New Vaccin Screen](Screenshots/4.PNG)
+![New db Screen](Screenshots/5.PNG)
+![Save db Screen](Screenshots/6.PNG)
+![Injection List Screen](Screenshots/7.PNG)
